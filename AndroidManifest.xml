@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.edu.agh.informatyka.so.threadsdemo"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:debuggable="true"
+        android:label="@string/app_name" >
+        <activity
+            android:name="pl.edu.agh.informatyka.so.threadsdemo.PhilosophersActivity"
+            android:label="5 Philosophers" >
+        </activity>
+        <activity
+            android:name="pl.edu.agh.informatyka.so.threadsdemo.ReadersWritersActivity"
+            android:label="Readers &amp; Writers"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pl.edu.agh.informatyka.so.threadsdemo.SleepingBarberActivity"
+            android:label="Sleeping Barber" >
+        </activity>
+        <activity
+            android:name="pl.edu.agh.informatyka.so.threadsdemo.ProducersConsumersActivity"
+            android:label="Producers &amp; Consumers"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pl.edu.agh.informatyka.so.threadsdemo.DemoListActivity"
+            android:label="@string/title_solution_list" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

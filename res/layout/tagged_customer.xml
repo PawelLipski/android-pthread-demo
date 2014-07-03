@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/customerImage"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:src="@drawable/face" />
+
+    <TextView
+        android:id="@+id/customerName"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.2"
+        android:layout_margin="1dp"
+        android:layout_gravity="top|center"
+        android:gravity="top|center"
+        android:shadowColor="#7f000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:text="Hello"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
+
+<!-- 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/customerImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/face_longer" />
+
+    <TextView
+        android:id="@+id/customerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_alignBottom="@+id/customerImage"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="1dp"
+        android:gravity="top|center"
+        android:shadowColor="#7f000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:text="Hello"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+</RelativeLayout>
+-->
+
+
+
+<!--   <RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/customerImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/face" />
+
+    <TextView
+        android:id="@+id/customerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/customerImage"
+        android:layout_alignTop="@+id/customerImage"
+        android:layout_alignRight="@+id/customerImage"
+        android:layout_alignBottom="@+id/customerImage"
+        android:layout_margin="1dp"
+        android:gravity="top|center"
+        android:text="Hello"
+        android:textColor="#000000" 
+        android:textSize="12sp"/>
+
+</RelativeLayout> -->
+
+<!-- 
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/customerImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/face" />
+
+    <TextView
+        android:id="@+id/customerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"    
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:text="Hello"
+        android:textColor="#FFFFFF" 
+        android:textSize="12sp"/>
+    
+</LinearLayout>-->
+
+<!--   
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customerName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:drawableTop="@drawable/reader"
+    android:gravity="top|center"
+    android:padding="5dp"    
+    android:textColor="#FFFFFF"
+    android:textSize="12sp" />
+-->

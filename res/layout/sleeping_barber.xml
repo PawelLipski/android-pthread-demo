@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  <pl.edu.agh.informatyka.so.threadsdemo.ReadersWritersView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/readers_writers_view" android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="7.58" >-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/LinearLayoutBarber"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1">
+
+        <LinearLayout
+                android:layout_width="0px"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/textChairs"
+                    android:layout_height="0px"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:text="@string/chairs_cnt"
+                    android:gravity="center_horizontal"/>
+
+            <LinearLayout
+                    android:layout_height="0px"
+                    android:layout_weight="3"
+                    android:layout_width="fill_parent">
+
+                <TextView
+                        android:id="@+id/chairs_number"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="5"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                <ImageView
+                        android:onClick="setChairNumber"
+                        android:layout_width="0px"
+                        android:layout_weight="1"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/imageView"
+                        android:src="@android:drawable/ic_menu_preferences"
+                        android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/textCustomers"
+                    android:layout_height="0px"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:text="@string/customers_cnt"
+                    android:gravity="center_horizontal"/>
+
+            <LinearLayout
+                    android:layout_height="0px"
+                    android:layout_weight="3"
+                    android:layout_width="fill_parent">
+
+                <TextView
+                        android:id="@+id/number"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="5"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                <ImageView
+                        android:onClick="setCustomerNumber"
+                        android:layout_width="0px"
+                        android:layout_weight="1"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/imageView"
+                        android:src="@android:drawable/ic_menu_preferences"
+                        android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/topLayout"
+                android:layout_width="0px"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/sofa_top"/>
+
+            <ImageView
+                    android:id="@+id/productImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sofa"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Waiting Room"
+                android:textSize="20dp"/>
+
+        <GridView
+                android:id="@+id/gridview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:columnWidth="80dp"
+                android:gravity="center"
+                android:horizontalSpacing="0dp"
+                android:listSelector="@null"
+                android:numColumns="auto_fit"
+                android:stretchMode="spacingWidthUniform"
+                android:verticalSpacing="0dp">
+        </GridView>
+
+    </LinearLayout>
+</LinearLayout>

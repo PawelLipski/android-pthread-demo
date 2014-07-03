@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  <pl.edu.agh.informatyka.so.threadsdemo.ReadersWritersView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/readers_writers_view" android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="7.58" >-->
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/writers_cnt" />
+
+    <SeekBar
+        android:id="@+id/seekBarWriters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="9"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:progress="3" />
+
+    <TextView
+        android:id="@+id/textReadersCnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/readers_cnt" />
+
+    <SeekBar
+        android:id="@+id/seekBarReaders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="9"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:progress="2" />
+
+    <pl.edu.agh.informatyka.so.threadsdemo.ReadersWritersView
+        android:id="@+id/readersWritersView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </pl.edu.agh.informatyka.so.threadsdemo.ReadersWritersView>
+
+</LinearLayout>
+
+<!-- 
+  </pl.edu.agh.informatyka.so.threadsdemo.ReadersWritersView>
+-->

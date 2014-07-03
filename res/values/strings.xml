@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThreadsDemo</string>
+    <string name="title_solution_list">ThreadsDemo</string>
+    <string name="title_solution_detail">Solution Detail</string>
+    <string name="readers_cnt">Number of readers</string>
+    <string name="writers_cnt">Number of writers</string>
+    <string name="chairs_cnt">Chairs</string>
+    <string name="customers_cnt">Customers</string>
+    <string name="sofa_top">Who\'s getting haircut</string>
+
+</resources>
